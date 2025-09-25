@@ -1,0 +1,7 @@
+# ignore all files in the archive folder and inProgress folder
+/archive
+/inProgress
+/inProgress_v5
+
+#env files
+.env
