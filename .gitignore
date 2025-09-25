@@ -1,7 +1,7 @@
-# ignore all files in the archive folder and inProgress folder
+# ignore all files in the archive folder and media folder
+/media
 /archive
-/inProgress
-/inProgress_v5
+
 
 #env files
 .env
