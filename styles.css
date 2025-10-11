@@ -49,7 +49,10 @@ body {
 
 .social-links {
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
 }
 
 .social-link {
@@ -208,7 +211,8 @@ body {
 }
 
 .capabilities li::before {
-    content: """;
+    /* content: """;        ..... this line was the old version */
+    content: ">";
     color: #00ff00;
     font-weight: bold;
     position: absolute;
